@@ -1,0 +1,150 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Long Way Home
+subtitle: Jan and Simone trotting the globe
+description:
+author: Jan Pöschko
+language: en
+timezone: America/Chicago
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+#url: http://poeschko.com
+url: http://localhost:4000
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+#theme: landscape
+theme: tranquilpeak
+
+no_sidebar: true
+sidebar_behavior: 1
+#clear_reading: true
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: heroku
+  #repo:
+
+
+cover_image: cover.jpg
+image_gallery: true
+
+sidebar:
+    menu:
+        home:
+            title: Home
+            url: /
+            icon: home
+        # categories:
+        #     title: Categories
+        #     url: /all-categories
+        #     icon: bookmark
+        # tags:
+        #     title: Tags
+        #     url: /all-tags
+        #     icon: tags
+        # archives:
+        #     title: Archives
+        #     url: /all-archives
+        #     icon: archive
+        # search:
+        #     title: Search
+        #     url: /#search
+        #     icon: search
+        #     # `st-search-show-outputs` classes are used to open swiftype search window
+        #     class: t-search-show-outputs
+        about:
+            title: About me
+            url: /#about
+            icon: question
+    # author_links:
+        # github:
+        #     title: GitHub
+        #     url: https://github.com/
+        #     icon: github
+        # stack_overflow:
+        #     title: Stack Overflow
+        #     url: http://stackoverflow.com/users/
+        #     icon: stack-overflow
+        # twitter:
+        #     title: Twitter
+        #     url: https://twitter.com/
+        #     icon: twitter
+        # facebook:
+        #     title: Facebook
+        #     url: https://www.facebook.com/
+        #     icon: facebook
+        # google_plus:
+        #     title: Google +
+        #     url: https://plus.google.com/
+        #     icon: google-plus
+        # linked_in:
+        #     title: Linked In
+        #     url: https://www.linkedin.com/profile/
+        #     icon: linkedin
+        # mail:
+        #     title: Mail
+        #     url: mailto:
+        #     icon: envelope-o
+    rss:
+        rss:
+            title: RSS
+            url: /atom.xml
+            icon: rss
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
