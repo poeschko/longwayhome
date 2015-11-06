@@ -1,4 +1,7 @@
 <div class="<%= (classes ? classes.join(' ') : '') %>">
+    <% if (post.subtitle) { %>
+        <p class="post-subtitle"><%= post.subtitle %></p>
+    <% } %>
     <time itemprop="datePublished" content="<%= post.date %>">
 	<% if (post.lang) { %>
 		    <%= post.date.locale(post.lang).format(__('date_format')) %>

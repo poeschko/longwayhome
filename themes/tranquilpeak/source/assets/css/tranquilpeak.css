@@ -1950,6 +1950,12 @@ a.fancybox {
       margin-bottom: 10px;
       border-bottom: 1px solid #eef2f8; }
 
+p.post-subtitle {
+  color: #5d686f;
+  font-size: 1.6rem;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em; }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .post .post-header .post-title {
     font-size: 3.3rem; } }

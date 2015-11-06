@@ -51,6 +51,13 @@
     }
 }
 
+p.post-subtitle {
+    color: map-get($colors, base);
+    font-size: map-get($font-size, large);
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
 // Increase the font size of the post's title on medium screen (only for single post view)
 @media #{$medium-only} {
     .post {
