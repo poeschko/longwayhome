@@ -1,4 +1,4 @@
-title: Leaving Chicago. A How-To
+title: Leaving Chicago. A How-To List
 date: 2015-11-01 13:00
 categories:
 	- USA
