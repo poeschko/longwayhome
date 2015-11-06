@@ -92,12 +92,35 @@
 
     $(document).ready(function() {
         if ($('.image-gallery').length) {
-            var imageGallery = new ImageGallery();
+            /*var imageGallery = new ImageGallery();
 
-            // Small timeout to wait the loading of all images.
-            setTimeout(function() {
-                imageGallery.run();
-            }, 500);
+             // Small timeout to wait the loading of all images.
+             setTimeout(function() {
+             imageGallery.run();
+             }, 500);*/
+            //galleries.imagesLoaded(function () {
+            //window.setTimeout(function () {
+            /*galleries.isotope({
+             itemSelector: '.photo-box',
+             layoutMode: 'masonry',
+             //percentPosition: true,
+             masonry: {
+             // use element for option
+             //columnWidth: '.grid-sizer'
+             columnWidth: '.image-gallery-grid-sizer'
+             }
+             });*/
+            var galleries = $('.image-gallery-photos');
+            galleries.imagesLoaded(function () {
+                //window.setTimeout(function () {
+                galleries.masonry({
+                    itemSelector: '.photo-box',
+                    columnWidth: '.image-gallery-grid-sizer',
+                    gutter: 10
+                });
+                //galleries.masonry('reload');
+                //}, 500);
+            });
         }
     });
 }(jQuery);

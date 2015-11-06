@@ -12,6 +12,10 @@
     transition:         transform .25s ease-in-out;
     -webkit-transition: -webkit-transform .25s ease-in-out;
 
+    &[data-sidebar-pos="right"] {
+        right: 0;
+    }
+
     // Author information
     .sidebar-profile {
         color:         map-get($sidebar, color);
@@ -59,13 +63,25 @@
 // and with javascript located in `source/_js/_sidebar.js`, it will animate the swipe of the sidebar
 @media #{$small-and-down} {
     #sidebar {
-        &[data-behavior="1"], &[data-behavior="3"] {
-            left: -#{map-get($sidebar, lg-screen-width)};
-            @include sidebar-lg;
+        &[data-sidebar-pos="left"] {
+            &[data-behavior="1"], &[data-behavior="3"] {
+                left: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="2"], &[data-behavior="4"] {
+                left: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
-        &[data-behavior="2"], &[data-behavior="4"] {
-            left: -#{map-get($sidebar, md-screen-width)};
-            @include sidebar-md;
+        &[data-sidebar-pos="right"] {
+            &[data-behavior="1"], &[data-behavior="3"] {
+                right: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="2"], &[data-behavior="4"] {
+                right: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
     }
 }
@@ -76,13 +92,25 @@
         &[data-behavior="2"] {
             @include sidebar-md;
         }
-        &[data-behavior="3"] {
-            left: -#{map-get($sidebar, lg-screen-width)};
-            @include sidebar-lg;
+        &[data-sidebar-pos="left"] {
+            &[data-behavior="3"] {
+                left: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="4"] {
+                left: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
-        &[data-behavior="4"] {
-            left: -#{map-get($sidebar, md-screen-width)};
-            @include sidebar-md;
+        &[data-sidebar-pos="right"] {
+            &[data-behavior="3"] {
+                right: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="4"] {
+                right: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
     }
 }
@@ -95,13 +123,25 @@
         &[data-behavior="2"] {
             @include sidebar-md;
         }
-        &[data-behavior="3"] {
-            left: -#{map-get($sidebar, lg-screen-width)};
-            @include sidebar-lg;
+        &[data-sidebar-pos="left"] {
+            &[data-behavior="3"] {
+                left: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="4"] {
+                left: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
-        &[data-behavior="4"] {
-            left: -#{map-get($sidebar, md-screen-width)};
-            @include sidebar-md;
+        &[data-sidebar-pos="right"] {
+            &[data-behavior="3"] {
+                right: -#{map-get($sidebar, lg-screen-width)};
+                @include sidebar-lg;
+            }
+            &[data-behavior="4"] {
+                right: -#{map-get($sidebar, md-screen-width)};
+                @include sidebar-md;
+            }
         }
     }
 }

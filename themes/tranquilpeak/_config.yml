@@ -35,24 +35,24 @@ sidebar:
             title: global.home
             url: /
             icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `st-search-show-outputs` classes are used to open swiftype search window
-            class: st-search-show-outputs
+#        categories:
+#            title: global.categories
+#            url: /all-categories
+#            icon: bookmark
+#        tags:
+#            title: global.tags
+#            url: /all-tags
+#            icon: tags
+#        archives:
+#            title: global.archives
+#            url: /all-archives
+#            icon: archive
+#        search:
+#            title: global.search
+#            url: /#search
+#            icon: search
+#            # `st-search-show-outputs` classes are used to open swiftype search window
+#            class: st-search-show-outputs
         about:
             title: global.about
             url: /#about
@@ -103,10 +103,13 @@ sidebar:
 #     icon: search
 #     class: st-search-show-outputs
 header:
-    right_link:
+    menu_items:
+      -
+        title: About
         url: /#about
-        icon:
-        class:
+      -
+        title: Home
+        url: /
 
 
 # Author
@@ -132,7 +135,10 @@ author:
 # 2: Display medium sidebar on large and medium screen and header bar on small screen and medium sidebar is swiped (default)
 # 3: Display header bar on all screens and large sidebar is swiped
 # 4: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 2
+sidebar_behavior: 3
+
+right_sidebar: true
+
 # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
 # Head title displayed at the top of the table of contents.
@@ -146,7 +152,7 @@ thumbnail_image_position: right
 # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
 # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
 # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
-auto_thumbnail_image: true
+auto_thumbnail_image: false
 # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
 # There is many free CDN like Cloudinary or you can also use indirectly
 # by using services like Google Photos.

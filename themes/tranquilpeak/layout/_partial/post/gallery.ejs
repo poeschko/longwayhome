@@ -5,10 +5,11 @@
         <% imageGalleryClass = 'image-gallery-photos--thumbnail' %>
     <% } %>
     <div class="image-gallery">
-        <div class="image-gallery-metabar">
+        <!--<div class="image-gallery-metabar">
             <span><%=  'Gallery : ' + photos.length + ' images' %></span>
-        </div>
+        </div>-->
         <div class="image-gallery-photos <%= imageGalleryClass %>">
+            <div class="image-gallery-grid-sizer"></div>
             <% photos.forEach(function(photo) { %>
                     <% var match = photo.match(rPhoto); %>
                     <% var photoUrl = match[1]; %>

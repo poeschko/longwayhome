@@ -17,17 +17,3 @@
     width: calc(100% - 15px * 2);
     left:  0;
 }
-
-/// Mixin helper to pushed bottom bar from medium sidebar size
-@mixin bottom-bar-pushed-md {
-    &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
-    }
-}
-
-/// Mixin helper to pushed bottom bar from large sidebar size
-@mixin bottom-bar-pushed-lg {
-    &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
-    }
-}

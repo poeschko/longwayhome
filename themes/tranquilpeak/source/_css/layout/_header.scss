@@ -5,7 +5,7 @@
     background:                  map-get($header, background);
     position:                    fixed;
     top:                         0;
-    border:                      map-get($header, border);
+    border-bottom:               map-get($header, border);
     color:                       map-get($header, color);
     // used to animate the header on small screen with javascript
     //@include prefix(transition, top 0.25s ease-in-out, 'webkit' 'moz' 'ms' 'o');
@@ -22,8 +22,17 @@
         position: absolute;
         // vertical center
         top:      20px;
-        left:     20px;
         cursor:   pointer;
+    }
+    &[data-sidebar-pos="left"] {
+        #btn-open-sidebar {
+            left: 20px;
+        }
+    }
+    &[data-sidebar-pos="right"] {
+        #btn-open-sidebar {
+            right: 20px;
+        }
     }
     .header-right-picture {
         position: absolute;
@@ -52,33 +61,25 @@
     .header-title {
         text-align:  center;
         font-size:   $font-size-base;
-        line-height: 55px;
+        line-height: map-get($header, height);
         margin:      0;
+    }
 
-        .header-title-link {
-            color:       map-get($header, color);
-            font-weight: normal;
+    .header-title .header-title-link,
+    .header-menu a {
+        color:       map-get($header, color);
+        font-weight: normal;
 
-            &:hover,
-            &:active {
-                color:           darken(map-get($header, color), 10);
-                text-decoration: none;
-            }
+        &:hover,
+        &:active {
+            color:           darken(map-get($header, color), 10);
+            text-decoration: none;
         }
     }
+
     // Class used to swipe to the top the header on small screen when the user scroll down
     &.header-up {
         @include prefix(transform, translate3d(0, -#{map-get($header, height)}, 0), 'webkit' 'moz');
-    }
-    // Push the header from the size of the large sidebar
-    &[data-behavior="1"],
-    &[data-behavior="3"] {
-        @include header-pushed-lg;
-    }
-    // Push the header from the size of the medium sidebar
-    &[data-behavior="2"],
-    &[data-behavior="4"] {
-        @include header-pushed-md;
     }
 }
 
@@ -87,6 +88,33 @@
         // Hide header
         &[data-behavior="1"], &[data-behavior="2"] {
             display: none;
+        }
+    }
+}
+
+@media #{$medium-and-down} {
+    .header-menu {
+        display: none;
+    }
+}
+
+@media #{$large-and-up} {
+    #btn-open-sidebar {
+        display: none;
+    }
+    .header-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 20px;
+        top: 0;
+
+        li {
+            display: inline-block;
+            margin: 2px 0;
+            padding: 0 10px;
+            line-height: map-get($header, height);
         }
     }
 }

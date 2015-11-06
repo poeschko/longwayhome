@@ -1,6 +1,11 @@
 <!--SCRIPTS-->
-<%- js('assets/js/script.min.js') %>
+<%- js('assets/js/jquery.js') %>
+<%- js('assets/js/jquery.fancybox.js') %>
+<%- js('assets/js/jquery.fancybox-thumbs.js') %>
+<%- js('assets/js/tranquilpeak.js') %>
 <!--SCRIPTS END-->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
 <% if (theme.disqus_shortname && is_post() && post.comments) { %>
     <script type="text/javascript">
         var disqus_shortname = '<%= theme.disqus_shortname %>';
@@ -23,3 +28,7 @@
         _st('install','<%= theme.swiftype_install_key %>','2.0.0');
     </script>
 <% } %>
+<script type="text/javascript">
+    //}, 3000);
+    //});
+</script>

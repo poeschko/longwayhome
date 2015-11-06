@@ -2,7 +2,7 @@
     display:       block;
     position:      relative;
     height:        auto;
-    overflow:      hidden;
+    //overflow:      hidden;
     margin-bottom: 30px;
 
     .image-gallery-metabar {
@@ -19,7 +19,41 @@
         // Use to go over all images of the gallery
         z-index:     1;
     }
+
     .image-gallery-photos {
+        .image-gallery-grid-sizer {
+        }
+        .photo-box {
+            margin-bottom: 10px;
+            .photo {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media #{$small-and-down} {
+            .image-gallery-grid-sizer,
+            .photo-box {
+                width: 100%;
+            }
+        }
+
+        @media #{$medium-only} {
+            .image-gallery-grid-sizer,
+            .photo-box {
+                width: calc(50% - 10px);
+            }
+        }
+
+        @media #{$large-and-up} {
+            .image-gallery-grid-sizer,
+            .photo-box {
+                width: calc(33% - 10px);
+            }
+        }
+    }
+
+    /*.image-gallery-photos {
         .photo-box {
             float:    left;
             position: relative;
@@ -43,13 +77,13 @@
                 }
             }
         }
-    }
+    }*/
     // Thumbnail image of gallery
     // Used when image gallery contains more than 2 images
     // You can change the style of image gallery by changing the following value
     // Currently, it display one large image above 2 smaller images
     // First image of the gallery
-    .image-gallery-photos--thumbnail {
+    /*.image-gallery-photos--thumbnail {
         // Display all images
         .photo-box {
             display:        block;
@@ -71,8 +105,8 @@
             }
             // Hide all other images after the 3 first
             &:nth-child(n + 4) {
-                display: none;
+                //display: none;
             }
         }
-    }
+    }*/
 }

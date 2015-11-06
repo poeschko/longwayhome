@@ -1,0 +1,29 @@
+#header {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  .header-title {
+    padding-left: 20px;
+    text-align: left;
+
+    .header-title-link {
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 24px;
+    }
+  }
+
+  .header-menu a {
+    font-weight: bold;
+  }
+}
+
+#cover {
+  background-image: none !important;
+  background-color: white;
+}
+
+#sidebar {
+  background-color: #060606;
+}

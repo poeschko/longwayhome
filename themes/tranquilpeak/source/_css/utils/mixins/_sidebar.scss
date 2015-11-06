@@ -40,7 +40,7 @@
         }
     }
     // Used to animate the sidebar (pushed effect)
-    &.pushed {
+    &[data-sidebar-pos="left"].pushed {
         @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
     }
 }
@@ -98,7 +98,7 @@
         }
     }
     // Used to animate the sidebar (pushed effect)
-    &.pushed {
+    &[data-sidebar-pos="left"].pushed {
         @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
     }
 }

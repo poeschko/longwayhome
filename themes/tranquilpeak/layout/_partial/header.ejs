@@ -1,6 +1,6 @@
 <!-- Define author's picture -->
 <% var authorPicture = null; %>
-<% if (!theme.header.right_link.icon) { %>
+<% if (!(theme.header && theme.header.right_link && theme.header.right_link.icon)) { %>
     <% if (theme.gravatar_email && theme.gravatar_email.length) { %>
         <% authorPicture = gravatar(theme.gravatar_email, 90); %>
     <% } else if (theme.author.picture && theme.author.picture.length) { %>
@@ -11,11 +11,18 @@
         <% } %>
     <% } %>
 <% } %>
-<header id="header" data-behavior="<%= sidebarBehavior %>">
+<header id="header" data-behavior="<%= sidebarBehavior %>" data-sidebar-pos="<%= sidebarPosition %>">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <h1 class="header-title">
         <a class="header-title-link" href="<%- url_for(' ') %>"><%= config.title %></a>
     </h1>
+    <% if (theme.header) { %>
+        <ul class="header-menu">
+            <% theme.header.menu_items.forEach(function (item) { %>
+                <li><a href="<%= item.url %>"><%= item.title %></a></li>
+            <% }) %>
+        </ul>
+    <% } %>
     <% if (theme.header && theme.header.right_link) { %>
         <% if (theme.header.right_link.url && url_for(theme.header.right_link.url).indexOf(config.url) < 0 && url_for(theme.header.right_link.url).indexOf(':') >= 0) { %>
             <a  class="<%= (theme.header.right_link.icon ? 'header-right-icon ' : 'header-right-picture ') %><% if (theme.header.right_link.class) { %><%= theme.header.right_link.class %><% } %>"

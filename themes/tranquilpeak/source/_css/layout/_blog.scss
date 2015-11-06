@@ -4,4 +4,29 @@
     left:     0;
     width:    100%;
     height:   100%;
+
+    &[data-sidebar-size="lg"] {
+        &[data-sidebar-pos="left"] {
+            .pushed {
+                @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
+            }
+        }
+        &[data-sidebar-pos="right"] {
+            .pushed {
+                @include prefix(transform, translate3d(-#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
+            }
+        }
+    }
+    &[data-sidebar-size="lg"] {
+        &[data-sidebar-pos="left"] {
+            .pushed {
+                @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
+            }
+        }
+        &[data-sidebar-pos="right"] {
+            .pushed {
+                @include prefix(transform, translate3d(-#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
+            }
+        }
+    }
 }

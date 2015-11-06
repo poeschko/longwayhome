@@ -21,14 +21,20 @@
 
 /// Mixin helper to push `main` div from medium sidebar size
 @mixin main-pushed-md {
-    &.pushed {
+    &[data-sidebar-pos="left"].pushed {
         @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
+    }
+    &[data-sidebar-pos="right"].pushed {
+        @include prefix(transform, translate3d(-#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
     }
 }
 
 /// Mixin helper to push `main` div from large sidebar size
 @mixin main-pushed-lg {
-    &.pushed {
+    &[data-sidebar-pos="left"].pushed {
         @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
+    }
+    &[data-sidebar-pos="right"].pushed {
+        @include prefix(transform, translate3d(-#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
     }
 }

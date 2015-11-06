@@ -4,6 +4,14 @@ var tranquilpeakJsFilesToInject = [
     'jquery.fancybox.js',
     'jquery.fancybox-thumbs.js',
     'tranquilpeak.js'
+    //'item.js',
+    //'layout-mode.js',
+    //'EventEmitter.js',
+    //'eventie.js',
+    //'isotope.js',
+    //'outlayer.js',
+    //'masonry.js',
+    //'imagesloaded.js'
 ];
 
 // Css files to inject in `layout/_partial/head.ejs`

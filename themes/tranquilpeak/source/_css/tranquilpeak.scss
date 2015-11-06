@@ -7,7 +7,6 @@
     'utils/mixins/button',
     'utils/mixins/category',
     'utils/mixins/form',
-    'utils/mixins/header',
     'utils/mixins/main',
     'utils/mixins/opacity',
     'utils/mixins/post-header-cover',
@@ -55,3 +54,6 @@
     'components/text',
     'components/tooltip',
     'components/video';
+
+@import
+    'user';
