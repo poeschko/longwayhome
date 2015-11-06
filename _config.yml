@@ -6,14 +6,15 @@
 title: Long Way Home
 subtitle: Jan and Simone trotting the globe
 description:
-author: Jan Pöschko
+author: Jan Pöschko, Simone Kaiser
 language: en
-timezone: America/Chicago
+timezone: UTC
+#America/Chicago
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://poeschko.com
-url: http://localhost:4000
+url: http://longwayhome.poeschko.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,84 +68,12 @@ pagination_dir: page
 #theme: landscape
 theme: tranquilpeak
 
-no_sidebar: true
-sidebar_behavior: 1
-#clear_reading: true
-
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: heroku
+  type: rsync
+  host: poeschko.com
+  root: /var/customers/webs/jan/longwayhome
+  user: jan
+  #delete: false
   #repo:
-
-
-cover_image: cover.jpg
-image_gallery: true
-
-sidebar:
-    menu:
-        home:
-            title: Home
-            url: /
-            icon: home
-        # categories:
-        #     title: Categories
-        #     url: /all-categories
-        #     icon: bookmark
-        # tags:
-        #     title: Tags
-        #     url: /all-tags
-        #     icon: tags
-        # archives:
-        #     title: Archives
-        #     url: /all-archives
-        #     icon: archive
-        # search:
-        #     title: Search
-        #     url: /#search
-        #     icon: search
-        #     # `st-search-show-outputs` classes are used to open swiftype search window
-        #     class: t-search-show-outputs
-        about:
-            title: About me
-            url: /#about
-            icon: question
-    # author_links:
-        # github:
-        #     title: GitHub
-        #     url: https://github.com/
-        #     icon: github
-        # stack_overflow:
-        #     title: Stack Overflow
-        #     url: http://stackoverflow.com/users/
-        #     icon: stack-overflow
-        # twitter:
-        #     title: Twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
-        # facebook:
-        #     title: Facebook
-        #     url: https://www.facebook.com/
-        #     icon: facebook
-        # google_plus:
-        #     title: Google +
-        #     url: https://plus.google.com/
-        #     icon: google-plus
-        # linked_in:
-        #     title: Linked In
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
-        # mail:
-        #     title: Mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: RSS
-            url: /atom.xml
-            icon: rss
-
-feed:
-    type: atom
-    path: atom.xml
-    limit: 20
