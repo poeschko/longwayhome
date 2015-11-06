@@ -21,9 +21,15 @@
     }
 
     .image-gallery-photos {
+        // Avoid extra spacing around photos while loading.
+        line-height: 0;
+        font-size: 0;
+
         .image-gallery-grid-sizer {
         }
         .photo-box {
+            display: inline-block;
+            margin-right: 10px;
             margin-bottom: 10px;
             .photo {
                 width: 100%;
