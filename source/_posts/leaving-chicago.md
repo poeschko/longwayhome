@@ -1,5 +1,15 @@
 title: Leaving Chicago. A How-To
 date: 2015-11-01 13:00
+categories:
+	- USA
+	- Chicago
+photos:
+	- Leaving-1.jpg
+	- Leaving-2.jpg
+	- Leaving-3.jpg
+	- Leaving-4.jpg
+	- Leaving-5.jpg
+	- Leaving-6.jpg
 
 ---
 
