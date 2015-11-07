@@ -47,5 +47,12 @@
             <%- partial('post/disqus') %>
         <% } %>
     </div>
+    <script type="text/javascript">
+        window.onload = function () {
+            if (location.hash === '#post-footer') {
+                window.scrollTo(0, document.body.scrollHeight);
+            }
+        };
+    </script>
 </article>
 
