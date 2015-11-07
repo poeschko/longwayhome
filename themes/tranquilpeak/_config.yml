@@ -123,9 +123,9 @@ author:
     # Overwritten by your gravatar image if `gravatar_email` is filled
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
+    twitter: poeschko
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
-    google_plus:
+    google_plus: 113374469943028970361
 
 
 # Customization
@@ -174,7 +174,7 @@ tag_pagination: true
 # Your Disqus shortname
 disqus_shortname: alongwayhome
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-69816537-1
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your swiftype install key
