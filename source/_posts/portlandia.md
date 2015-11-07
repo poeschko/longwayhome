@@ -31,7 +31,7 @@ All we knew so far about Portland, Oregon, we knew from the satirical TV show [P
 
 <iframe width="750" height="563" src="https://www.youtube.com/embed/WAlWrT5P2VI" frameborder="0" allowfullscreen></iframe>
 
-It wasn't that bad, though. Quite on the contrary, we experienced Portland as a refreshingly relaxed, unpretentious yet quirky, creative, environmental-concious city. Where else do you find a mayor who had his private parking space in front of the city hall transformed into a garden and now takes public transport like everyone else? 
+It wasn't that bad, though. Quite on the contrary, we experienced Portland as a refreshingly relaxed, unpretentious yet quirky, creative, environmentally conscious city. Where else do you find a mayor who had his private parking space in front of the city hall transformed into a garden and now takes public transport like everyone else?
 
 ### Microbreweries, Voodoo Doughnuts and Food Carts
 
