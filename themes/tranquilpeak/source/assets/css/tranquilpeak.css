@@ -1279,7 +1279,8 @@ a.category--small,
   margin: 2px; }
 
 .figure.figure--fullWidth {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 1em; }
   .figure.figure--fullWidth .figure-img {
     margin: 0 auto; }
 
