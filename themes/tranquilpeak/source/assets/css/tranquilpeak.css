@@ -2574,3 +2574,6 @@ a.tag--small,
 
 #sidebar {
   background-color: #060606; }
+
+iframe {
+  width: 100%; }
