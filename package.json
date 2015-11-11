@@ -6,7 +6,7 @@
     "version": "3.1.1"
   },
   "scripts": {
-    "deploy": "cd public && rsync -rv --times --checksum . poeschko.com:/var/customers/webs/jan/longwayhome && cd .."
+    "deploy": "cd public && rsync -rv --checksum . poeschko.com:/var/customers/webs/jan/longwayhome && cd .."
   },
   "dependencies": {
     "hexo": "^3.1.1",
