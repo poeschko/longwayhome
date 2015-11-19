@@ -1,5 +1,11 @@
-title: 10 freaky things at the Madonna Inn, San Luis Obispo
+title: 10 freaky things at the Madonna Inn
 subtitle: November 8, 2015
+date: 2015-11-12 13:00
+category:
+	- USA
+	- West Coast
+	- California
+	- San Luis Obispo
 photos:
 	- MadonnaInn-1.jpg
 	- MadonnaInn-2.jpg
@@ -10,7 +16,7 @@ photos:
 
 ---
 
-1. All 110 rooms are themed and have unique designs. You can rest your head in the Matterhorn room, the Austrian Suite, the Caveman, the Floral Fancy, the Just Heaven or the Marguerite room (which we picked).
+1. All 110 rooms of the [Madonna Inn](http://www.madonnainn.com/) are themed and have unique designs. You can rest your head in the Matterhorn room, the Austrian Suite, the Caveman, the Floral Fancy, the Just Heaven or the Marguerite room (which we picked).
 1. You can buy postcards of all rooms in the Madonna Inn.
 1. When making a reservation, you can pick three room preferences and find out which room you get upon check-in.
 1. Some of the rooms' bathrooms feature a rock shower.

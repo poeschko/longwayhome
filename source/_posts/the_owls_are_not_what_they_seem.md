@@ -1,5 +1,6 @@
 title: The owls are not what they seem
 subtitle: November 4, 2015
+date: 2015-11-10 13:00
 category:
 	- USA
 	- West Coast
