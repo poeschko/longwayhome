@@ -1278,7 +1278,8 @@ a.category--small,
 
 .figure.fig-100, .figure.center {
   width: calc(100% - 4px);
-  margin: 2px; }
+  margin: 2px;
+  margin-bottom: 1em; }
 
 .figure.figure--fullWidth {
   width: 100%;
