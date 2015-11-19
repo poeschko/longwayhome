@@ -35,18 +35,20 @@
             <% } %>
         </div>
     </div>
-    <div id="post-footer" class="post-footer main-content-wrap">
-        <% if ((post.tags) && (post.tags.length > 0)) { %>
-            <div class="post-footer-tags">
-                <span class="text-color-light text-small"><%= __('post.tagged_in') %></span><br/>
-                <%- partial('post/tag', {tags: post.tags})%>
-            </div>
-        <% } %>
-        <%- partial('post/actions', {postContent: postContent}) %>
-        <% if (post.comments && theme.disqus_shortname) { %>
-            <%- partial('post/disqus') %>
-        <% } %>
-    </div>
+    <% if (!noSharingFooter) { %>
+        <div id="post-footer" class="post-footer main-content-wrap">
+            <% if ((post.tags) && (post.tags.length > 0)) { %>
+                <div class="post-footer-tags">
+                    <span class="text-color-light text-small"><%= __('post.tagged_in') %></span><br/>
+                    <%- partial('post/tag', {tags: post.tags})%>
+                </div>
+            <% } %>
+            <%- partial('post/actions', {postContent: postContent}) %>
+            <% if (post.comments && theme.disqus_shortname) { %>
+                <%- partial('post/disqus') %>
+            <% } %>
+        </div>
+    <% } %>
     <script type="text/javascript">
         window.onload = function () {
             if (location.hash === '#post-footer') {
