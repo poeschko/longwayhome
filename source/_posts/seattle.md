@@ -7,6 +7,7 @@ category:
 	- Seattle
 photos:
 	- Seattle-1.jpg
+	- Seattle-2.jpg
 	- Seattle-3.jpg
 	- Seattle-4.jpg
 	- Seattle-5.jpg

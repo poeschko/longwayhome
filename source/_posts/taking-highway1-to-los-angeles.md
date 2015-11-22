@@ -1,5 +1,5 @@
 title: Taking Highway 1 down to Los Angeles
-subtitle: November 9-11
+subtitle: November 9–11
 date: 2015-11-18 20:28
 category:
 	- USA
