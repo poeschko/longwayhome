@@ -55,7 +55,7 @@ sidebar:
 #            class: st-search-show-outputs
         about:
             title: global.about
-            url: /#about
+            url: /about
             icon: question
     author_links:
         # github:
@@ -107,9 +107,9 @@ header:
       -
         title: About
         url: /about
-      -
-        title: Home
-        url: /
+      #-
+      #  title: Home
+      #  url: /
 
 
 # Author
