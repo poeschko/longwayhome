@@ -51,7 +51,6 @@ After the flight, we cracked a bottle of sparkling wine in our suite before doin
 
 ## Off the Strip
 
-Thanks to a [Freakonomics episode](http://freakonomics.com/2015/05/11/could-the-next-brooklyn-be-las-vegas-a-new-freakonomics-radio-podcast/) we had listened to while driving, we checked out the newly created [Container Park](http://downtowncontainerpark.com/) in Downtown Las Vegas at daytime. It's definitely worth a visit if you want to see a less mainstream part of Sin City. It's part of Zappo CEO's Tony Hsieh's downtown project (more about that in the Freakonomics podcast). Besides bars, restaurants and boutiques, the Container Park features one of the last things you'd expect in Vegas: a playground (for children, to point that out).
+Thanks to a [Freakonomics episode](http://freakonomics.com/2015/05/11/could-the-next-brooklyn-be-las-vegas-a-new-freakonomics-radio-podcast/) we had listened to while driving, we checked out the newly created [Container Park](http://downtowncontainerpark.com/) in Downtown Las Vegas at daytime. It's definitely worth a visit if you want to see a less mainstream part of Sin City. It's part of [Zappos](http://www.zappos.com/) CEO Tony Hsieh's Downtown Project (more about that in the Freakonomics podcast). Besides bars, restaurants and boutiques, the Container Park features one of the last things you'd expect in Vegas: a playground (for children, to point that out).
 
 At that point, however, we had already played enough in Vegas. But the café on the second floor of the container complex provided just the right recovery treatment for us: caffeine and a Bloody Mary.
-
