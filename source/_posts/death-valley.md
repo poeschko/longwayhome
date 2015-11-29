@@ -1,6 +1,6 @@
 title: Death Valley
 subtitle: November 21, 2015
-date: 11-28-2015 15:00
+date: 2015-11-28 15:00
 category:
 	- USA
 	- California
