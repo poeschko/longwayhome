@@ -1,4 +1,4 @@
-title: "Out first month: What we spent in the U.S."
+title: "Our first month: What we spent in the U.S."
 date: 2015-12-05 10:15
 category:
 	- USA
