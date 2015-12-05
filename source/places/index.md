@@ -13,5 +13,7 @@ Our five-month trip is taking us to the West of the United States, Nicaragua, Co
     * [Arizona](/categories/USA/Arizona): [Grand Canyon](/categories/USA/Arizona/Grand-Canyon), [Antelope Canyon](/categories/USA/Arizona/Antelope-Canyon)
     * [Utah](/categoires/USA/Utah): [Bryce Canyon](/categories/USA/Utah/Bryce-Canyon), [Zion](/categories/USA/Utah/Zion)
     * [Nevada](/categories/USA/Nevada): [Las Vegas](/categories/USA/Nevada/Las-Vegas)
+* [Central America](/categories/Central-America)
+    * [Nicaragua](/categories/Central-America/Nicaragua): [Managua](/categories/Central-America/Nicaragua/Managua)
 
 {% image right fig-100 /places/index/trip.png "USA → Nicaragua → Costa Rica → Panama → Argentina." %}
