@@ -4,6 +4,7 @@ date: 2015-12-05 10:00
 category:
 	- USA
 	- California
+	- San Francisco
 photos:
 	- SanFrancisco-1.jpg
 	- SanFrancisco-2.jpg

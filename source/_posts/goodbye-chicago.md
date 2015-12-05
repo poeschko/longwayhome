@@ -2,6 +2,7 @@ title: Goodbye, Chicago!
 date: 2015-10-31 13:00:00Z
 categories:
 	- USA
+	- Illinois
 	- Chicago
 photos:
 	- Chicago-1.jpg

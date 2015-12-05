@@ -4,6 +4,7 @@ date: 2015-11-28 15:00
 category:
 	- USA
 	- California
+	- Death Valley
 photos:
 	- DeathValley-1.jpg
 	- DeathValley-2.jpg

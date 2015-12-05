@@ -3,7 +3,7 @@ subtitle: November 4–7, 2015
 date: 2015-11-11 13:00
 category:
 	- USA
-	- West Coast
+	- Washington
 	- Seattle
 photos:
 	- Seattle-1.jpg

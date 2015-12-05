@@ -4,6 +4,7 @@ date: 2015-11-28 18:47
 category:
 	- USA
 	- California
+	- Napa
 photos:
 	- Napa-1.jpg
 	- Napa-2.jpg

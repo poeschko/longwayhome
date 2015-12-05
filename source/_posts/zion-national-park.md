@@ -4,6 +4,7 @@ date: 2015-11-26 16:33
 category:
 	- USA
 	- Utah
+	- Zion
 photos:
 	- Zion-1.jpg
 	- Zion-2.jpg

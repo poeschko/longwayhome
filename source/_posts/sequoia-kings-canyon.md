@@ -4,6 +4,7 @@ date: 2015-11-28 15:30
 category:
 	- USA
 	- California
+	- Sequoia and Kings Canyon
 photos:
 	- Sequoia-1.jpg
 	- Sequoia-2.jpg

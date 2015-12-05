@@ -2,6 +2,7 @@ title: Leaving Chicago. A How-To List
 date: 2015-11-01 13:00
 categories:
 	- USA
+	- Illinois
 	- Chicago
 photos:
 	- Leaving-1.jpg

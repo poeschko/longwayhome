@@ -3,7 +3,7 @@ subtitle: November 3, 2015
 date: 2015-11-03 20:00
 category:
 	- USA
-	- West Coast
+	- Oregon
 	- Portland
 photos:
 	- Multnomah-1.jpg

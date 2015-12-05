@@ -4,6 +4,7 @@ date: 2015-11-26 15:03
 category: 
 	- USA
 	- Utah
+	- Bryce Canyon
 photos:
 	- Bryce-1.jpg
 	- Bryce-2.jpg

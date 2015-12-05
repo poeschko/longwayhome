@@ -53,6 +53,10 @@ sidebar:
 #            icon: search
 #            # `st-search-show-outputs` classes are used to open swiftype search window
 #            class: st-search-show-outputs
+        places:
+            title: Places
+            url: /places
+            icon: bookmark
         about:
             title: global.about
             url: /about
@@ -104,6 +108,9 @@ sidebar:
 #     class: st-search-show-outputs
 header:
     menu_items:
+      -
+        title: Places
+        url: /places
       -
         title: About
         url: /about

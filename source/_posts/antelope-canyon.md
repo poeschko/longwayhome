@@ -4,6 +4,7 @@ date: 2015-11-24 21:55
 category:
 	- USA
 	- Arizona
+	- Antelope Canyon
 photos:
 	- Antelope-1.jpg
 	- Antelope-3.jpg

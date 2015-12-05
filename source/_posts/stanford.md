@@ -4,6 +4,7 @@ date: 2015-11-28 18:45
 category:
 	- USA
 	- California
+	- Stanford
 photos:
 	- Stanford-1.jpg
 	- Stanford-2.jpg

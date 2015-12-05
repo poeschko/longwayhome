@@ -4,6 +4,7 @@ date: 2015-11-26 19:24
 category:
 	- USA
 	- Nevada
+	- Las Vegas
 photos:
 	- LasVegas-1.jpg
 	- LasVegas-2.jpg

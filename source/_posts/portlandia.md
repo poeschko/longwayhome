@@ -3,7 +3,7 @@ subtitle: November 1–3, 2015
 date: 2015-11-03 13:00
 category:
 	- USA
-	- West Coast
+	- Oregon
 	- Portland
 photos:
 	- Portlandia-1.jpg

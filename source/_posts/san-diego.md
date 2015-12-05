@@ -3,8 +3,8 @@ subtitle: November 11–15, 2015
 date: 2015-11-22 10:00
 category:
 	- USA
-	- West Coast
 	- California
+	- San Diego
 photos:
 	- SanDiego-1.jpg
 	- SanDiego-2.jpg

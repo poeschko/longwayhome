@@ -4,6 +4,7 @@ date: 2015-11-22 23:00
 category:
     - USA
     - Arizona
+    - Grand Canyon
 photos:
 	- GrandCanyon-1.jpg
 	- GrandCanyon-2.jpg

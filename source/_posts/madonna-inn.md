@@ -3,7 +3,6 @@ subtitle: November 8, 2015
 date: 2015-11-12 13:00
 category:
 	- USA
-	- West Coast
 	- California
 	- San Luis Obispo
 photos:

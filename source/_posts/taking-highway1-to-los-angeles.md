@@ -3,8 +3,8 @@ subtitle: November 9–11
 date: 2015-11-18 20:28
 category:
 	- USA
-	- West Coast
 	- California
+	- Los Angeles
 photos:
 	- Highway1ToLA-1.jpg
 	- Highway1ToLA-2.jpg

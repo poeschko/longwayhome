@@ -3,7 +3,7 @@ subtitle: November 3–4, 2015
 date: 2015-11-04 13:00
 category:
 	- USA
-	- West Coast
+	- Oregon
 	- Astoria
 photos:
 	- Astoria-1.jpg
