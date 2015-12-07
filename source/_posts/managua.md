@@ -24,7 +24,7 @@ And so our Central American adventure begins!
 
 Getting off the Aeromexico flight from San Francisco to Managua via Mexico City, we were welcomed by Nicaragua's capital with heat, dust and dozens of Virgin Maries. 
 
-On our way to the Malecón, the lakefront of Lake Nicaragua, we passed altars over altars over altars dedicated to *la Virgen*. Many of the altars included renditions of paroquial churches or featured scenes of street and community life. In the center of every altar was a statue of the Mother of God, and speakers played loud devotional music. The altars were set up for the festival La Purísima, which is actually celebrated on December 7th in honor of the immaculate conception. On the streets, women from the neighborhoods sold freshly fried chicken and French fries, the national dish *vigorón*, fruits and drinks.
+On our way to the Malecón, the lakefront of Lake Xolotlán, we passed altars over altars over altars dedicated to *la Virgen*. Many of the altars included renditions of paroquial churches or featured scenes of street and community life. In the center of every altar was a statue of the Mother of God, and speakers played loud devotional music. The altars were set up for the festival La Purísima, which is actually celebrated on December 7th in honor of the immaculate conception. On the streets, women from the neighborhoods sold freshly fried chicken and French fries, the national dish *vigorón*, fruits and drinks.
 
 {% wide_image /2015/12/05/managua/Managua-5.jpg "One of hundreds of altars for Virgin Mary." %}
 
