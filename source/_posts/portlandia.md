@@ -33,7 +33,7 @@ All we knew so far about Portland, Oregon, we knew from the satirical TV show [P
 
 It wasn't that bad, though. Quite on the contrary, we experienced Portland as a refreshingly relaxed, unpretentious yet quirky, creative, environmentally conscious city. Where else do you find a mayor who had his private parking space in front of the city hall transformed into a garden and now takes public transport like everyone else?
 
-### Microbreweries, Voodoo Doughnuts and Food Carts
+## Microbreweries, Voodoo Doughnuts and Food Carts
 
 Portland was indeed a great city to begin our 5-month-adventure on the road. Especially because the roads we encountered there were pedestrian-, bike- and skateboard-friendly (skateboards used to have their designated lanes on the streets!), covered in red bricks.
 
