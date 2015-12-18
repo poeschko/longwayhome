@@ -25,4 +25,4 @@ The [Museo de la Revolución](http://www.nicaragua.com/museums/museum-of-the-rev
 
 We stayed at [la Casona Colonial](http://casonacolonialguest.com/), a historic colonial house furnished with antiques and run by a very nice old *señora*.
 
-On our way to and from León, we passed by volcano Momotombo, which was actually errupting for the first time since 1905.
+On our way to and from León, we passed by volcano Momotombo, which was actually erupting for the first time since 1905.
