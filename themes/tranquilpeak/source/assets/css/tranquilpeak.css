@@ -2580,3 +2580,6 @@ a.tag--small,
 
 iframe {
   width: 100%; }
+
+blockquote p:last-child {
+  margin-bottom: 0; }
