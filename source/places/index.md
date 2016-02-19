@@ -16,6 +16,8 @@ Our five-month trip is taking us to the West of the United States, Nicaragua, Co
 * [Central America](/categories/Central-America)
     * [Nicaragua](/categories/Central-America/Nicaragua): [Managua](/categories/Central-America/Nicaragua/Managua), [Somoto](/categories/Central-America/Nicaragua/Somoto), [Matagalpa](/categories/Central-America/Nicaragua/Matagalpa), [León](/categories/Central-America/Nicaragua/Leon), [Corn Island](/categories/Central-America/Nicaragua/Corn-Island), [Granada](/categories/Central-America/Nicaragua/Granada), [Ometepe](/categories/Central-America/Nicaragua/Ometepe)
     * [Costa Rica](/categories/Central-America/Costa-Rica): [Monteverde](/categories/Central-America/Costa-Rica/Monteverde), [San José](/categories/Central-America/Costa-Rica/San-Jose), [Tortuguero](/categories/Central-America/Costa-Rica/Tortuguero), [Puerto Viejo](/categories/Central-America/Costa-Rica/Puerto-Viejo)
-    * [Panama](/categories/Central-America/Panama): [Bocas del Toro](/categories/Central-America/Panama/Bocas-del-Toro), [Boquete](/categories/Central-America/Panama/Boquete)
+    * [Panama](/categories/Central-America/Panama): [Bocas del Toro](/categories/Central-America/Panama/Bocas-del-Toro), [Boquete](/categories/Central-America/Panama/Boquete), [Panama City](/categories/Central-America/Panama/Panama-City)
+* [South America](/categories/South-America)
+    * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires)
 
 {% image right fig-100 /places/index/trip.png "USA → Nicaragua → Costa Rica → Panama → Argentina." %}
