@@ -70,4 +70,4 @@ BA is somehow the perfect mix between Barcelona, Paris and Italy. With its obvio
 
 Although we visited the places and sights our guide book recommended—such as the Obelisco, la Casa Rosada, San Telmo, the Recoleta cemetery—the city's main attraction lies in wandering through the nice barrios of Palermo and Recoleta.
 
-It's especially nice when you walk those barrios with friends. Thanks for visiting, Maria & Anna and Lisa, Anna & Babsi! 
+It's especially nice when you walk those barrios with friends. Thanks for visiting, Maria & Anna and Lisa, Anna & Babsi!
