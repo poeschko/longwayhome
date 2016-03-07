@@ -19,6 +19,6 @@ Our five-month trip is taking us to the West of the United States, Nicaragua, Co
     * [Panama](/categories/Central-America/Panama): [Bocas del Toro](/categories/Central-America/Panama/Bocas-del-Toro), [Boquete](/categories/Central-America/Panama/Boquete), [Panama City](/categories/Central-America/Panama/Panama-City)
 * [South America](/categories/South-America)
     * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires)
-    * [Uruguay](/categories/South-America/Uruguay): [Colonia](/categories/South-America/Uruguay/Colonia)
+    * [Uruguay](/categories/South-America/Uruguay): [Colonia](/categories/South-America/Uruguay/Colonia), [Montevideo](/categories/South-America/Uruguay/Montevideo)
 
 {% image right fig-100 /places/index/trip.png "USA → Nicaragua → Costa Rica → Panama → Argentina → Uruguay." %}
