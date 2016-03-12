@@ -3,7 +3,7 @@ date: 2015-11-14 23:40:58
 
 ---
 
-Our five-month trip is taking us to the West of the United States, Nicaragua, Costa Rica, Panama, Argentina and other places to be determined. These are the places we have visited so far:
+Our six-month trip is taking us to the West of the United States, Nicaragua, Costa Rica, Panama, Argentina, Uruguay and Chile. These are the places we have visited so far:
 
 * [USA](/categories/USA)
     * [Illinois](/categories/USA/Illinois): [Chicago](/categories/USA/Chicago)
@@ -18,7 +18,7 @@ Our five-month trip is taking us to the West of the United States, Nicaragua, Co
     * [Costa Rica](/categories/Central-America/Costa-Rica): [Monteverde](/categories/Central-America/Costa-Rica/Monteverde), [San José](/categories/Central-America/Costa-Rica/San-Jose), [Tortuguero](/categories/Central-America/Costa-Rica/Tortuguero), [Puerto Viejo](/categories/Central-America/Costa-Rica/Puerto-Viejo)
     * [Panama](/categories/Central-America/Panama): [Bocas del Toro](/categories/Central-America/Panama/Bocas-del-Toro), [Boquete](/categories/Central-America/Panama/Boquete), [Panama City](/categories/Central-America/Panama/Panama-City)
 * [South America](/categories/South-America)
-    * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires)
+    * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires); [Iguazú Falls](/categories/South-America/Argentina/Iguazu-Falls)
     * [Uruguay](/categories/South-America/Uruguay): [Colonia](/categories/South-America/Uruguay/Colonia), [Montevideo](/categories/South-America/Uruguay/Montevideo)
 
 {% image right fig-100 /places/index/trip.png "USA → Nicaragua → Costa Rica → Panama → Argentina → Uruguay." %}
