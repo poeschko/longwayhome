@@ -18,7 +18,7 @@ Our six-month trip is taking us to the West of the United States, Nicaragua, Cos
     * [Costa Rica](/categories/Central-America/Costa-Rica): [Monteverde](/categories/Central-America/Costa-Rica/Monteverde), [San José](/categories/Central-America/Costa-Rica/San-Jose), [Tortuguero](/categories/Central-America/Costa-Rica/Tortuguero), [Puerto Viejo](/categories/Central-America/Costa-Rica/Puerto-Viejo)
     * [Panama](/categories/Central-America/Panama): [Bocas del Toro](/categories/Central-America/Panama/Bocas-del-Toro), [Boquete](/categories/Central-America/Panama/Boquete), [Panama City](/categories/Central-America/Panama/Panama-City)
 * [South America](/categories/South-America)
-    * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires); [Iguazú Falls](/categories/South-America/Argentina/Iguazu-Falls)
+    * [Argentina](/categories/South-America/Argentina): [Buenos Aires](/categories/South-America/Argentina/Buenos-Aires); [Iguazú Falls](/categories/South-America/Argentina/Iguazu-Falls), [Salinas Grandes](/categories/South-America/Argentina/Salinas-Grandes), [Iruya](/categories/South-America/Argentina/Iruya), [Humahuaca](/categories/South-America/Argentina/Humahuaca)
     * [Uruguay](/categories/South-America/Uruguay): [Colonia](/categories/South-America/Uruguay/Colonia), [Montevideo](/categories/South-America/Uruguay/Montevideo)
 
 {% image right fig-100 /places/index/trip.png "USA → Nicaragua → Costa Rica → Panama → Argentina → Uruguay." %}
